@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="伍四七">
 <meta property="og:description" content="使用HEXO在GITHUB PAGES上建立博客在Github上注册账号在Github网站上免费注册一个账号即可。 创建仓库新建一个repository, 注意这个repository的名字要和注册的用户名对应, 如我的用户名是WenzelHu,  那么repository的名字应该为wenzelhu.github.io。 这个repository的分支就设为默认的master。 这样就可以通过链">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-09T18:07:25.722Z">
+<meta property="og:updated_time" content="2018-08-09T18:10:04.432Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用hexo建立自己的博客">
 <meta name="twitter:description" content="使用HEXO在GITHUB PAGES上建立博客在Github上注册账号在Github网站上免费注册一个账号即可。 创建仓库新建一个repository, 注意这个repository的名字要和注册的用户名对应, 如我的用户名是WenzelHu,  那么repository的名字应该为wenzelhu.github.io。 这个repository的分支就设为默认的master。 这样就可以通过链">
@@ -343,7 +343,7 @@
 <li><p>生成一个新的SSH密匙<br>打开Git Bash输入如下命令</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keggen -t rsa -b 4096 -C &quot;你的邮箱@xx.com&quot;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>把生成的SSH密匙添加到账户里去<br>在Github账户界面选择<strong>Settings</strong>, 在点选<strong>SSH and GPG keys</strong>，然后选择 <strong>New SSH key</strong>。<br>打开之前生成的SSH密匙文件，把密匙粘贴到添加面板里即可</p>
+<li><p>把生成的SSH密匙添加到账户里去<br>在Github账户界面选择<strong>Settings</strong>, 再点选<strong>SSH and GPG keys</strong>，然后选择 <strong>New SSH key</strong>。<br>打开之前生成的SSH密匙文件，把密匙粘贴到添加面板里即可</p>
 </li>
 </ul>
 <p>不执行上述建立SSH连接的操作，会在用hexo把文件部署到Github Pages上时会出现如下的错误：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Permission denied (publickey)</span><br><span class="line">fatal: Could not read from remote repository</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists</span><br></pre></td></tr></table></figure></p>
